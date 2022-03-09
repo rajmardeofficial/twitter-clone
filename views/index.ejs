@@ -1,0 +1,36 @@
+<%- include('partials/header.ejs') %> 
+
+<div class="wrapper ">
+    <section class="sidebar">
+        <i class="fa-brands fa-twitter fa-2xl"></i>
+        <ul>
+            <li><a href=""><i class="fa-solid fa-house icon"></i> Home</a></li>
+            <li><a href=""><i class="fa-regular fa-bell icon"></i> Notifications</a></li>
+            <li><a href=""><i class="fa-regular fa-envelope icon"></i> Messages</a></li>
+            <li><a href=""><i class="fa-regular fa-bookmark icon"></i> Bookmarks</a></li>
+            <li><a href=""><i class="fa-regular fa-user icon"></i> Profile</a></li>
+        </ul>
+        <button class="tweet-btn">Tweet</button>
+    </section>
+    <section class="main">
+        <div class="main-home-heading">
+            <h5>Home</h5>
+            <p style="color: black;">✨</p>
+        </div>
+        <div class="tweet-create-area">
+            <img src="https://pbs.twimg.com/profile_images/1381819128143470592/ab5olM7A_400x400.jpg" alt="" width="50px">
+            <textarea name="tweet" id="" cols="55" rows="1" placeholder="What's happening ?"></textarea>
+        </div>
+        <div class="tweet-create-icons">
+            <i class="fa-regular fa-image"></i>
+            <i class="fa-solid fa-square-poll-horizontal"></i>
+            <i class="fa-regular fa-face-smile"></i>
+            <i class="fa-regular fa-calendar-days"></i>
+            <i class="fa-solid fa-location-dot"></i>
+            <button class="tweet-btn-main">Tweet</button>
+        </div>
+        <hr style="width: 100%;">
+    </section>
+</div>
+
+<%- include('partials/footer.ejs') %> 

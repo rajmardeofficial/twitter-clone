@@ -1,0 +1,138 @@
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+/* Sidebar */
+
+.sidebar {
+  position: fixed;
+  height: 100%;
+}
+
+.sidebar .fa-twitter {
+  margin-top: 50px;
+  color: #1d9bf0;
+  margin-left: 50px;
+}
+
+.sidebar ul {
+  list-style: none;
+  margin-top: 30px;
+  padding-left: 0;
+  margin-left: 50px;
+}
+
+.sidebar ul li {
+  margin-top: 40px;
+  font-size: 20px;
+}
+
+.icon {
+  margin-right: 5px;
+  font-size: 25px;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.tweet-btn {
+  margin-top: 25px;
+  border: none;
+  width: 200px;
+  background-color: #1d9bf0;
+  padding: 15px;
+  border-radius: 50px;
+  color: #fff;
+  font-weight: 500;
+  margin-left: 30px;
+}
+
+/* Main */
+
+.main {
+  width: 500px;
+  margin-left: 400px;
+  position: fixed;
+  height: 100%;
+  border: 0.5px #e7e4e4;
+  border-style: solid;
+  padding: 10px 10px;
+}
+
+.main-home-heading {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tweet-create-area {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tweet-create-area img {
+  border-radius: 50px;
+}
+
+.tweet-create-area textarea {
+  border: none;
+  background-color: transparent;
+  resize: none;
+  outline: none;
+  font-size: 20px;
+  overflow: hidden;
+  margin-left: 10px;
+  max-height: 150px;
+}
+
+.tweet-create-icons{
+  margin: 20px;
+  margin-left: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.tweet-create-icons i {
+  color: #1d9bf0;
+  margin-right: 25px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.tweet-btn-main{
+  border: none;
+  width: 100px;
+  background-color: #1d9bf0;
+  padding: 8px;
+  border-radius: 50px;
+  color: #fff;
+  font-weight: 500;
+  margin-left: 80px;
+  opacity: 0.8;
+}
